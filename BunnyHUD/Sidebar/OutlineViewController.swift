@@ -213,7 +213,7 @@ class OutlineViewController: NSViewController,
         // Note that the system shares the nodeID and the expansion restoration ID.
 
         addGroupNode(OutlineViewController.NameConstants.settings, identifier: "settingsGroup")
-        addNode(Node(title: "General"))
+        addNode(Node(title: "通用设置"))
         typealias gsc = GeneralSettingsController
         if gsc.getSetting(settingKey: gsc.cactbotKey, defaultValue: false) {
             addNode(Node(title: "Cactbot"))

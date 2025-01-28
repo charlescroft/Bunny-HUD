@@ -153,8 +153,8 @@ extension SidebarViewController: NSToolbarDelegate {
             let segmentControl = NSSegmentedControl(images: [image], trackingMode: .selectOne, target: nil, action: nil)
             
             let addMenu = NSMenu(title: "Add")
-            addMenu.addItem(NSMenuItem(title: "Add Overlay", action: #selector(addOverlayAction), keyEquivalent: ""))
-            addMenu.addItem(NSMenuItem(title: "Add Group", action: #selector(addFolderAction), keyEquivalent: ""))
+            addMenu.addItem(NSMenuItem(title: NSLocalizedString("Add Overlay", comment: ""), action: #selector(addOverlayAction), keyEquivalent: ""))
+            addMenu.addItem(NSMenuItem(title: NSLocalizedString("Add Group", comment: ""), action: #selector(addFolderAction), keyEquivalent: ""))
             segmentControl.setMenu(addMenu, forSegment: 0)
             segmentControl.setShowsMenuIndicator(true, forSegment: 0)
             

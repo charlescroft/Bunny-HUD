@@ -5,27 +5,31 @@ Abstract:
 Localized string resources.
 */
 
-"settings string" = "Settings";
-"overlays string" = "Overlays";
+"settings string" = "设置";
+"overlays string" = "模板";
 
-"untitled string" = "Untitled";
+"untitled string" = "未命名";
 
-"remove link confirm string" = "Are you sure you want to remove the overlay \"%@\"?";
-"remove confirm string" = "Are you sure you want to remove \"%@\"?";
-"remove multiple string" = "Are you sure you want to remove these items?";
+"remove link confirm string" = "你确定要移除 \"%@\" 吗?";
+"remove confirm string" = "你确定要移除 \"%@\" 吗?";
+"remove multiple string" = "你确定要移除这些项目吗?";
 
-"ok button title" = "OK";
-"cancel button title" = "Cancel";
+"ok button title" = "确认";
+"cancel button title" = "取消";
 
-"open panel prompt" = "Choose";
-"choose picture message" = "Choose an Overlay to add to \"%@\":";
+"open panel prompt" = "选择";
+"choose picture message" = "请选择你要添加的模板 \"%@\":";
 
-"context remove string" = "Remove \"%@\"";
-"context remove string multiple" = "Remove Items";
+"context remove string" = "移除 \"%@\"";
+"context remove string multiple" = "移除已选项";
 
-"context rename string" = "Rename \"%@\"";
+"context rename string" = "重命名 \"%@\"";
 
-"on disk" = "%@ on disk";
+"on disk" = "%@ 在硬盘上";
 
-"add overlay" = "Add Overlay";
-"add group" = "Add Group";
+"add overlay" = "新增模板";
+"add group" = "新增组";
+
+"Cactbot Configuration" = "Cactbot 设置";
+"Add Overlay" = "添加模板";
+"Add Group" = "添加组";

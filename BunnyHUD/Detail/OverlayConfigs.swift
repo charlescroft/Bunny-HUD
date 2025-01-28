@@ -22,7 +22,7 @@ class CactbotConfig: NSViewController, WKUIDelegate, WKNavigationDelegate {
         popupWebView.autoresizingMask = [.width, .height]
         popupWebView.navigationDelegate = self
         popupWebView.uiDelegate = self
-        _ = PopupWindowDelegate(title: "Cactbot Configuration", contentView: popupWebView)
+        _ = PopupWindowDelegate(title: NSLocalizedString("Cactbot Configuration", comment: ""), contentView: popupWebView)
         return popupWebView
     }
 }
